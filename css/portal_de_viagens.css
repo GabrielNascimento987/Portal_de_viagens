@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(32, 36, 59);
+}
+main{
+    border: solid 1px rgb(32, 36, 59);
+    background-color: rgb(32, 36, 59);
+}
+.titulo {
+    display: inline-block;
+    border: solid 1px rgb(32, 36, 59);
+    padding: 20px;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    background-color: rgb(32, 36, 59);
+    font-size: 23px;
+}
+.destino,
+.valores,
+.contato {
+    display: inline-block;
+    border: solid 1px rgb(32, 36, 59);
+    padding: 12px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    color: white;
+    background-color: rgb(32, 36, 59);
+}
+article a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.tela {
+    border: solid 1px black;
+    padding: 12px;
+    height: 550px;
+    text-align: center;
+    background-color: rgb(21, 182, 142);
+    color: white;
+    font-size: 23px;
+}
+.imagem {
+    max-width:500px;
+    max-height:350px;
+    width: auto;
+    height: auto;
+}
+.form {
+    border: solid 1px black;
+    padding: 12px;
+    height: 620px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(32, 36, 59);
+    font-size: 23px;
+}
+article input {
+    border: 0;
+    border-radius: 6px;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    margin-top: 1em;
+    margin-left: .2em;
+    width: 400px
+}
+article button{
+    border: 0;
+    border-radius: 6px;
+    width: 10em;
+    height: 50px;
+    background-color: rgb(21, 182, 142);
+    color: #fff;
+    margin-top: 1em;
+    margin-left: .2em;
+}
